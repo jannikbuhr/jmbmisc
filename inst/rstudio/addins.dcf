@@ -1,0 +1,4 @@
+Name: stopServer
+Description: stop the blogdown server
+Binding: stopServer
+Interactive: false

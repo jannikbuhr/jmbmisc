@@ -2,3 +2,13 @@ Name: stopServer
 Description: stop the blogdown server
 Binding: stopServer
 Interactive: false
+
+Name: convertCitation
+Description: Convert citation from citr to RefManageR
+Binding: convertCitation
+Interactive: false
+
+Name: runApp
+Description: Reload package and run app.R file for shiny developement
+Binding: runApp
+Interactive: true

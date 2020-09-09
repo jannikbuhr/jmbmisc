@@ -60,6 +60,6 @@ runApp <- function() {
 #' @return
 #' NULL
 #' @export
-runApp <- function() {
+renderSite <- function() {
   rmarkdown::render_site()
 }

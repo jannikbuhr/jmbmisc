@@ -12,3 +12,8 @@ Name: runApp
 Description: Reload package and run app.R file for shiny developement
 Binding: runApp
 Interactive: true
+
+Name: renderSite
+Description: Reload package and run app.R file for shiny developement
+Binding: renderSite
+Interactive: true

@@ -52,3 +52,14 @@ runApp <- function() {
     usethis::ui_code_block("# ShinyApp\nrun_app()")
   }
 }
+
+#' renderSite
+#'
+#' Render an rmarkdown website
+#'
+#' @return
+#' NULL
+#' @export
+runApp <- function() {
+  rmarkdown::render_site()
+}

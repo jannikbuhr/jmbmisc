@@ -14,7 +14,8 @@ Imports:
     magrittr,
     pkgload,
     here,
-    devtools
+    devtools,
+    rmarkdown
 Suggests: 
     testthat (>= 2.1.0)
 RoxygenNote: 7.1.1

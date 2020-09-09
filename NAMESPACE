@@ -3,6 +3,7 @@
 export("%>%")
 export(.)
 export(convertCitation)
+export(renderSite)
 export(runApp)
 export(stopServer)
 importFrom(magrittr,"%>%")

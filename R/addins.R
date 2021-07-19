@@ -63,3 +63,17 @@ runApp <- function() {
 renderSite <- function() {
   rmarkdown::render_site()
 }
+
+#' insertDate
+#'
+#' Insert the current date
+#'
+#' @return
+#' NULL
+#' @export
+insertDate <- function() {
+  date <- Sys.Date()
+  date <- format(date)
+  rstudioapi::insertText(text = date)
+  return()
+}
